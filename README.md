@@ -27,14 +27,6 @@ You will need to run npm init if you do not use my package.json file, install th
 
 Run node index in your command line to start and follow the prompts to select your desired actions to updated the database. It is also helpful to use an application like MySQL workbench in conjunction with this.
 
-## Contributing
-
-No other contributors
-
-## Tests
-
-undefined
-
 ## Development
 
 The ability to remove an employee is needed for future development, as well as a friendlier or stylized look to the command line prompts.
