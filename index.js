@@ -14,8 +14,6 @@ const connection = mysql.createConnection({
   database: "employees_db",
 });
 
-
-
 const runPrompts = () => {
   inquirer
     .prompt({
@@ -210,7 +208,8 @@ const viewSome = () => {
           runPrompts();
           break;
 
-        case "EXIT"
+        case "EXIT":
+          connection.end();
 
         default:
           console.log(`Invalid action: ${answer.action}`);
